@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ShoppingCart 
 {
-	private ArrayList<Product> productList = new ArrayList<>();
+	private ArrayList<Product> productList = new ArrayList<Product>();
 	private double totalCartValue;
 	private BuyXItemGetYItemFreeOffer offer;
 	private NoOffer nooffer;
