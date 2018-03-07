@@ -64,6 +64,7 @@ public class ShoppingCartTests
 		Assert.assertEquals(300.0, cart.getTotalCartValue(),0.0);
 	}
 	
+	@Ignore
 	@Test
 	public void testApplyBuyOneGetFiftyPercentDiscountOnNextOfferToTheCart()
 	 {

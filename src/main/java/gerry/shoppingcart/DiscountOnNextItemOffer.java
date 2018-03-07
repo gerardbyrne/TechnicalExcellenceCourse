@@ -1,5 +1,7 @@
 package gerry.shoppingcart;
 
+import java.io.Console;
+
 public class DiscountOnNextItemOffer 
 {
 	private double discountPercentage;
